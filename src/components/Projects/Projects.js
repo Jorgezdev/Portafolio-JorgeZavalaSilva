@@ -4,6 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import conchaliWeb from "../../Assets/Projects/Conchaliweb.png";
 import Jotatube from "../../Assets/Projects/Jotatube.png";
+import BancoClonestado from "../../Assets/Projects/BancoClonestado.png";
 
 
 function Projects() {
@@ -33,14 +34,25 @@ function Projects() {
             <ProjectCard
               imgPath={Jotatube}
               isBlog={false}
-              title="frontend youtubeclone con react y typescript"
-              description="frontend youtubeclone con react y typescript"
+              title="Frontend youtube clone con 
+                     react y typescript"
+              description="Frontend youtube clone 
+                            con react y typescript"
               ghLink="https://github.com/Jorgezdev/Jotatube"
               demoLink="https://jorgezdev.github.io/Jotatube/"
             />
           </Col>
 
-
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={BancoClonestado}
+              isBlog={false}
+              title="Banco Clon Estado"
+              description="Clon del sitio web del Banco Estado."
+              ghLink="https://github.com/Jorgezdev/ClonWeb-BancoEstado"
+              demoLink="https://jorgezdev.github.io/ClonWeb-BancoEstado/"
+            />
+          </Col>
 
         </Row>
       </Container>
